@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>liz's portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section id="home">
-        <nav>
+        <nav class="navigation">
             <ul>
-                <li><a href="#about me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="navItem"><a href="#aboutMe">About Me</a></li>
+                <li class="navItem"><a href="#projects">Projects</a></li>
+                <li class="navItem"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div id="banner">
-            <img src="images/Liz Hester.jpeg" alt="">
+            <img src="images/Liz Hester.jpeg" alt="" class="bannerImage">
             <h2>Liz Hester</h2>
             <h3>UX/UI Designer, Frontend Developer</h3>
         </div>
     </section>
 
-    <section id="about me"></section>
+    <section id="aboutMe">
         <h2>About Me</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eos quia minima consequuntur quibusdam vitae, quis, iusto ullam accusamus non fugiat, facere odit optio eum inventore et beatae aut delectus.</p>
-
-    <section id="projects"></section>
-        <div class="project title">
+    </section>
+    <section id="projects">
+        <div class="projectTitle">
             <h2>Projects</h2>
             <h3>Latest Projects</h3>
         </div>
@@ -35,24 +36,25 @@
             <img src="images/Placeholder.png" alt="Project Image">
             <img src="images/Placeholder.png" alt="Project Image">
         </div>
-
+    </section>
     <section id="contact">
-        <h2>Contact</h2>
-        <h3>Shoot me a message! Let's work together!</h3>
+       <div class="contactHeaders">
+        <h2 class="contactHeader">Contact</h2>
+        <h3 class="contactSubheader">Shoot me a message! Let's work together!</h3>
+        </div>
         <form action="">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="John Doe">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="john.doe@gmail.com">
-            <br>
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" placeholder="Project Idea">
-            <br>
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" cols="30" rows="1" placeholder="Your message here..."></textarea>
-            <br>
-            <input type="submit" value="Send">
+            <div class="topRow">
+                <input type="text" id="name" name="name" placeholder="John Doe">
+                
+                <input type="email" id="email" name="email" placeholder="john.doe@gmail.com">
 
+                <input type="text" id="subject" name="subject" placeholder="Project Idea">
+            </div>
+            
+            <div class="bottomRow">
+                <textarea name="message" id="message" cols="30" rows="1" placeholder="Your message here..."></textarea>
+            </div>
+                <input type="submit" value="Send" id="btnSend">  
         </form>
         <footer>©Copyright 2020 Liz Hester</footer>
     </section>

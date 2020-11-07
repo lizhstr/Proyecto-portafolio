@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap');
+
+*{
+    margin: 0;
+    font-family: Montserrat; sans-serif;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#home{
+    height: 70vh;
+    width: 100%;
+    background-image: url(./images/photo-boards-KZNTEn2r6tw-unsplash.jpg);
+    background-size: cover;
+}
+
+.navigation{
+    height: 10vh;
+}
+
+.navItem{
+    list-style: none;
+    font-weight: 600;
+}
+
+.navItem a{
+    color: #ffffff;
+}
+
+.navItem:hover a{
+    color: #EC7063;
+}
+
+#banner{
+    height: 60vh;
+    color: white;
+}
+
+.bannerImage{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+#aboutMe{
+    height: 30vh;
+    background-color: #EC7063;
+    padding: 3%, 10%, 0, 10%;
+    text-align: center;
+    color: white;
+}
+
+#aboutMe p{
+    margin-top: 10px;
+}
+
+#projects{
+    padding-top: 8%;
+    text-align: center;
+}
+
+.projectTitle h2{
+    color: #EC7063;
+}
+
+.projectTitle h3{
+    color: #9b9b9b;
+    margin: 8px 0;
+}
+
+#contact{
+    margin-top: 8%;
+    background-color: #455a64;
+    text-align: center;
+    color: white;
+    padding: 5% 10%;
+}
+
+.contactSubheader{
+    margin-top: 8px 0;
+}
+
+.topRow{
+    margin: 2% 0 3% 0;
+}
+
+.topRow input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px #37474f;
+}
+
+.bottomRow textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px #37474f;
+}
+
+input, textarea{
+    color: white;
+    font-size: 18px;
+    padding: 2px 4px 2px;
+}
+
+#btnSend{
+    border: 0;
+    margin: 3% 0;
+    height: 50px;
+    width: 215px;
+    background-color: #ec7063;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #37474f;
+    color: white;
+    text-align: center;
+    padding: 5% 10%;
+}
