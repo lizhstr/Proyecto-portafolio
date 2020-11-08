@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
 *{
     margin: 0;
-    font-family: Montserrat; sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 h2{
     font-size: 24px;
+    font-weight: 600;
 }
 
 h3{
     font-size: 18px;
     font-weight: 400;
+    margin: 8px 0;
 }
 
 #home{
@@ -52,7 +54,9 @@ h3{
 #aboutMe{
     height: 30vh;
     background-color: #EC7063;
-    padding: 3%, 10%, 0, 10%;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
     color: white;
 }
@@ -111,7 +115,7 @@ input, textarea{
 
 #btnSend{
     border: 0;
-    margin: 3% 0;
+    margin-top: 3%;
     height: 50px;
     width: 215px;
     background-color: #ec7063;
