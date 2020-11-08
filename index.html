@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>liz's portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <section id="home">
         <nav class="navigation">
-            <ul>
+            <ul class="list">
                 <li class="navItem"><a href="#aboutMe">About Me</a></li>
                 <li class="navItem"><a href="#projects">Projects</a></li>
                 <li class="navItem"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div id="banner">
-            <img src="images/Liz Hester.jpeg" alt="" class="bannerImage">
+            <img src="images/Liz Hester 1.png" alt="" class="bannerImage">
             <h2>Liz Hester</h2>
-            <h3>UX/UI Designer, Frontend Developer</h3>
+            <h3>UX/UI Designer & Frontend Developer</h3>
+            <a href="#contact" id="btnContact">Contact Me</a>
         </div>
     </section>
 
@@ -31,10 +33,19 @@
             <h2>Projects</h2>
             <h3>Latest Projects</h3>
         </div>
-        <div>
-            <img src="images/Placeholder.png" alt="Project Image">
-            <img src="images/Placeholder.png" alt="Project Image">
-            <img src="images/Placeholder.png" alt="Project Image">
+        <div class="imgProjects">
+            <div class="box">
+                <img src="images/Placeholder.png" alt="Project Image" >
+                <div class="layer">Project X</div>
+            </div>
+            <div class="box">
+                <img src="images/Placeholder.png" alt="Project Image" >
+                <div class="layer">Project Y</div>
+            </div>
+            <div class="box">
+                <img src="images/Placeholder.png" alt="Project Image" >
+                <div class="layer">Project Z</div>
+            </div>
         </div>
     </section>
     <section id="contact">
@@ -57,6 +68,16 @@
                 <input type="submit" value="Send" id="btnSend">  
         </form>
     </section>
-    <footer>©Copyright 2020 Liz Hester</footer>
+    <footer>
+        <div>
+            <h2>Liz Hester</h2>
+            <h3>UX/UI Designer & Frontend Developer</h3>
+        </div>
+        <div class="icons">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="#"></a>
+            <a href="https://github.com/"><i class="fab fa-github-alt"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
