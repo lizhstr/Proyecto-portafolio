@@ -1,31 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,300&display=swap');
 
 *{
+    font-family: 'Karla', sans-serif;
     margin: 0;
-    font-family: Montserrat, sans-serif;
 }
 
-h2{
-    font-size: 24px;
-    font-weight: 600;
-}
-
-h3{
-    font-size: 18px;
-    font-weight: 400;
-    margin: 8px 0;
-}
 
 #home{
-    height: 70vh;
-    width: 100%;
     background-image: url(images/pexels-jot-2179483.jpg);
     background-size: cover;
+    padding-bottom: 15px;
 }
 
 
 .navigation{
-    height: 10vh;
     display: flex;
     justify-content: flex-end;
 }
@@ -44,15 +32,7 @@ h3{
     color: #EC7063;
 }
 
-.list{
-    display: flex;
-    align-items: center;
-    width: 30%;
-    justify-content: space-around;
-}
-
 #banner{
-    height: 60vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -75,11 +55,12 @@ h3{
     font-weight: 600;
     text-decoration: none;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin: 15px 0 15px 0;
 }
 
 
@@ -89,22 +70,18 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
     background-color: #EC7063;
-    padding-top: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
     text-align: center;
     color: white;
+    padding: 15px 0 15px 0;
 }
 
 #aboutMe p{
-    margin-top: 10px;
 }
 
 #projects{
-    padding-top: 8%;
     text-align: center;
+    padding: 15px 0 15px 0;
 }
 
 .projectTitle{
@@ -120,18 +97,14 @@ h3{
 
 .projectTitle h3{
     color: #9b9b9b;
-    margin: 8px 0;
 }
 
 .imgProjects{
     display: flex;
-    padding: 0 5% 0 5%;
     justify-content: space-between;
 }
 
 .imgProjects img{
-    width: 400px;
-    height: auto;
     cursor: pointer;
 }
 
@@ -169,19 +142,21 @@ h3{
 }
 
 #contact{
-    margin-top: 8%;
     background-color: #455a64;
     text-align: center;
     color: white;
-    padding: 5% 10%;
+    padding: 15px 0 15px 0;
 }
 
-.contactSubheader{
-    margin-top: 8px 0;
+.contactHeaders{
+    margin-bottom: 15px;
 }
 
 .topRow{
-    margin: 2% 0 3% 0;
+}
+
+.bottomRow{
+    justify-content: center;
 }
 
 .topRow input{
@@ -202,6 +177,7 @@ input, textarea{
     padding: 2px 4px 2px;
 }
 
+
 #btnSend{
     border: 0;
     margin-top: 3%;
@@ -212,13 +188,14 @@ input, textarea{
     font-weight: 600;
     border-radius: 10px;
     cursor: pointer;
+    margin: 15px 0 15px 0;
 }
 
 footer{
     background-color: #37474f;
     color: white;
-    text-align: center;
-    padding: 5% 10%;
+    text-align: center; 
+    padding: 15px 0 15px 0;
 }
 
 .icons{
@@ -230,3 +207,8 @@ footer{
     color: white;
     font-size: 30px;
 }
+
+.nav-link{
+    color: #35c8f9 !important;
+}
+

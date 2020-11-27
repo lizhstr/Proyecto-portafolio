@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>liz's portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
     <section id="home">
@@ -16,35 +18,42 @@
                 <li class="navItem"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div id="banner">
+        <div id="banner" class="container-fluid">
             <img src="images/Liz Hester 1.png" alt="" class="bannerImage">
+            <div></div>
             <h2>Liz Hester</h2>
-            <h3>UX/UI Designer & Frontend Developer</h3>
+            <h3>UX/UI Designer</h3>
             <a href="#contact" id="btnContact">Contact Me</a>
         </div>
     </section>
 
-    <section id="aboutMe">
+    <section id="aboutMe" class="container-fluid">
+        <div class="container>
         <h2>About Me</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eos quia minima consequuntur quibusdam vitae, quis, iusto ullam accusamus non fugiat, facere odit optio eum inventore et beatae aut delectus.</p>
-    </section>
-    <section id="projects">
-        <div class="projectTitle">
-            <h2>Projects</h2>
-            <h3>Latest Projects</h3>
         </div>
-        <div class="imgProjects">
-            <div class="box">
-                <img src="images/Placeholder.png" alt="Project Image" >
-                <div class="layer">Project X</div>
+    </section>
+    <section id="projects" class="container-fluid">
+        <div class="container">
+            <div class="projectTitle">
+                <h2>Projects</h2>
+                <h4>Latest Projects</h4>
             </div>
-            <div class="box">
-                <img src="images/Placeholder.png" alt="Project Image" >
-                <div class="layer">Project Y</div>
-            </div>
-            <div class="box">
-                <img src="images/Placeholder.png" alt="Project Image" >
-                <div class="layer">Project Z</div>
+                <div class="imgProjects" class="container">
+                    <class="row">
+                
+                        <img src="images/Placeholder.png" alt="Project Image" class="img-fluid col-sm-12 col-md-12 col-lg-4 p-2">
+                        <div class="layer">Project X</div>
+            
+                
+                        <img src="images/Placeholder.png" alt="Project Image" class="img-fluid col-sm-12 col-md-12 col-lg-4 p-2">
+                        <div class="layer">Project Y</div>
+                
+            
+                        <img src="images/Placeholder.png" alt="Project Image" class="img-fluid col-sm-12 col-md-12 col-lg-4 p-2">
+                        <div class="layer">Project Z</div>
+                    
+                </div>
             </div>
         </div>
     </section>
@@ -71,7 +80,7 @@
     <footer>
         <div>
             <h2>Liz Hester</h2>
-            <h3>UX/UI Designer & Frontend Developer</h3>
+            <h3>UX/UI Designer</h3>
         </div>
         <div class="icons">
             <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
@@ -79,5 +88,7 @@
             <a href="https://github.com/"><i class="fab fa-github-alt"></i></a>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
